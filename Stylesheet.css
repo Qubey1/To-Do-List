@@ -1,0 +1,57 @@
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+#task-list {
+    flex-direction: column;
+    /*grid-column-gap: 70px;*/
+    /*grid-template-columns: 1fr 4fr 1fr;
+    display: grid;
+    border: 1px solid indianred;*/
+}
+
+li {
+    display: flex;
+}
+
+input[type="checkbox"]:checked ~ span {
+    text-decoration: line-through;
+}
+
+/*.crossedOut {
+    text-decoration: line-through;
+}*/
+
+.title {
+    font-size: xx-large;
+    font-family: "Times New Roman";
+    /*text-align: center;*/
+    color: mediumpurple;
+}
+
+#input-task {
+    width: 70%;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 2px solid darkviolet;
+}
+
+#add-task-button {
+    color: white;
+    background: darkviolet;
+    border: none;
+    border-radius: 7px;
+}
+
+.all {
+    text-align: center;
+    width: 600px;
+    border: 2px solid black;
+}
+
+.delete-btn {
+    background-color: darkred;
+}
